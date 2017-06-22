@@ -5,6 +5,7 @@
  * Docker
  * Docker Compose
  * Last.fm API key ([from here](http://www.last.fm/api/account/create))
+ * Spotify API key ([from here](https://developer.spotify.com/my-applications/))
 
 ## Usage
 
@@ -15,7 +16,7 @@ $ docker-compose build
 $ docker-compose up --abort-on-container-exit --force-recreate
 ```
 
-Configure `local.php` with your username and API key.
+Configure `local.php` with your username and API keys.
 
 Head to [http://localhost:8080](http://localhost:8080). Refresh for a new artist.
 

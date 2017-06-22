@@ -10,7 +10,8 @@
         "zendframework/zend-expressive-fastroute": "^2.0",
         "zendframework/zend-servicemanager": "^3.3",
         "php-http/curl-client": "^1.7",
-        "zendframework/zend-expressive-zendviewrenderer": "^1.4"
+        "zendframework/zend-expressive-zendviewrenderer": "^1.4",
+        "league/oauth2-client": "^2.2"
     },
     "license": "MIT",
     "authors": [

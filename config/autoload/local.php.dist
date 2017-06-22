@@ -9,4 +9,9 @@ return [
         // Get an API key from http://www.last.fm/api/account/create
         'apiKey' => 'ENTER-API-KEY-HERE',
     ],
+    'spotify' => [
+        // Get an API key from https://developer.spotify.com/my-applications/
+        'clientId' => 'YOUR_CLIENT_ID',
+        'clientSecret' => 'YOUR_CLIENT_SECRET',
+    ],
 ];
