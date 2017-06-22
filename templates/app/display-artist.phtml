@@ -1,11 +1,12 @@
 <?php
 declare(strict_types=1);
 /** @var string $artist */
-/** @var string $spotifyUri */
+/** @var string|null $spotifyUri */
 ?>
 
 <h1><?= $this->escapeHtml($artist); ?></h1>
 
+<?php if (null !== $spotifyUri): ?>
 <iframe
         src="https://open.spotify.com/embed?uri=<?= $this->escapeHtmlAttr($spotifyUri); ?>"
         width="300"
@@ -13,4 +14,7 @@ declare(strict_types=1);
         frameborder="0"
         allowtransparency="true"></iframe>
 <br /><br />
+<?php else: ?>
+No spotify available.
+<?php endif; ?>
 <button onclick="window.location.reload();" style="padding: 10px 30px;">Again?</button>

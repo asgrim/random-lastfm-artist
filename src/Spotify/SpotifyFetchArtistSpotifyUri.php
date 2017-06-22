@@ -32,7 +32,7 @@ final class SpotifyFetchArtistSpotifyUri implements FetchArtistSpotifyUri
         $this->searchBaseUri = $searchBaseUri;
     }
 
-    public function fetch(string $artistName) : string
+    public function fetch(string $artistName) : ?string
     {
         $accessToken = $this->oauthProvider->getAccessToken('client_credentials');
 
