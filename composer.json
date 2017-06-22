@@ -1,0 +1,27 @@
+{
+    "name": "asgrim/random-lastfm-artist",
+    "description": "Pick a random last.fm artist",
+    "type": "project",
+    "require": {
+        "php": "7.1.*",
+        "roave/security-advisories": "dev-master",
+        "php-http/httplug": "^1.1",
+        "zendframework/zend-expressive": "^2.0",
+        "zendframework/zend-expressive-fastroute": "^2.0",
+        "zendframework/zend-servicemanager": "^3.3",
+        "php-http/curl-client": "^1.7",
+        "zendframework/zend-expressive-zendviewrenderer": "^1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Titcumb",
+            "email": "james@asgrim.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Asgrim\\RandomArtist\\": "src"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<?php
+declare(strict_types=1);
+
+return [
+    'random-lastfm-artist' => [
+        'user' => 'ENTER-USERNAME-HERE',
+    ],
+    'lastfm' => [
+        // Get an API key from http://www.last.fm/api/account/create
+        'apiKey' => 'ENTER-API-KEY-HERE',
+    ],
+];
